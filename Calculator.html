@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Calculator/Calculator.css">
+    <title>Calculator</title>
+</head>
+<body class="container">
+
+ 
+
+        <div class="box">
+
+            <p class="title">Virgin❤</p>
+
+
+            <input type="text" id="screen"/>
+            <br>
+
+            <form>
+                <input value="7" type="button" class="button number" onclick="buttonClk(value)"/>
+                <input value="8" type="button" class="button number" onclick="buttonClk(value)"/>
+                <input value="9" type="button" class="button number" onclick="buttonClk(value)"/>
+                <input value="/" type="button" class="button operator" onclick="buttonClk(value)"/>
+                <br>
+    
+                <input value="4" type="button" class="button number" onclick="buttonClk(value)"/>
+                <input value="5" type="button" class="button number" onclick="buttonClk(value)"/>
+                <input value="6" type="button" class="button number" onclick="buttonClk(value)"/>
+                <input value="*" type="button" class="button operator" onclick="buttonClk(value)"/>
+                <br>
+    
+                <input value="1" type="button" class="button number" onclick="buttonClk(value)"/>
+                <input value="2" type="button" class="button number" onclick="buttonClk(value)"/>
+                <input value="3" type="button" class="button number" onclick="buttonClk(value)"/>
+                <input value="+" type="button" class="button operator" onclick="buttonClk(value)"/>
+                <br>
+    
+                <input value="C" type="button" class="button clear" onclick="clearScreen()"/>
+                <input value="0" type="button" class="button number" onclick="buttonClk(value)"/>
+                <input value="=" type="button" class="button operator" onclick="getResult()"/>
+                <input value="-" type="button" class="button operator" onclick="buttonClk(value)">
+            </form>
+           
+
+
+        </div>
+
+   
+
+    <script src="./Calculator.js"></script>
+</body>
+</html>
